@@ -67,101 +67,93 @@
         </nav>
     </header>
     <!-- end nav -->
-    <!-- start about product section -->
-    <section class="wow fadeIn">
-        <div class="container margin-80px-top">
-            <div class="row">
-                <div class="col-md-6 sm-margin-50px-bottom xs-margin-30px-bottom wow fadeIn">
-                    <h5 class="alt-font text-extra-dark-gray font-weight-800 line-height-40 margin-20px-bottom sm-line-height-30">How might we facilitate greater public
-                        engagement with academic research?</h5>
-                    <p class="text-medium line-height-30"> Created during the immersive UX Design program at <a href="http://brainstation.io/course/toronto/user-experience-immersive"
-                            target="_blank">Brainstation Toronto</a>, biblio aims to increase the reach and impact of
-                        academic research by making the findings easy to discover, comprehend and engage with outside
-                        of universities.  This project gave me the opportunity to explore each step of the design process, from
-                        identifying and understanding the barriers to engagement, to finding and testing possible
-                        solutions to overcome them.
-            </p>
-               
-                    <a href="https://invis.io/CWPWXFVFRDA" target="_blank" class="btn text-alt btn-deep-pink btn-medium margin-20px-top">Launch
-                        prototype</a>
-            
-                </div>
-                <div class="col-md-4 col-md-offset-2 wow fadeIn">
-                    <ul class="list-style-8 margin-twelve-left">
-                        <li class="text-uppercase text-medium-gray "><span class="display-block text-extra-small text-light-gray"></br>Role</span>UX
-                            Research, UI/UX Design, USER TESTING, </br> VISUAL IDENTITY, Front-End development</li>
-                        <li class="text-uppercase text-medium-gray"><span class="display-block text-extra-small text-light-gray">Type</span>iOS
-                            app (prototype), responsive website</li>
-                                <li class="text-uppercase text-medium-gray"><span class="display-block text-extra-small text-light-gray">TOOLS & METHODS</span>Survey, 1-1 Interviews, usability testing  |  Sketch, InVision  |  HTML & CSS, Bootstrap, JQuery</li>
-                                <li class="text-uppercase text-medium-gray"><span class="display-block text-extra-small text-light-gray">USER CRITERIAS</span> 20-30 years old, with an undergraduate degree </li>
-                        <li class="text-uppercase text-medium-gray"><span class="display-block text-extra-small text-light-gray">Timeline</span>8
-                            weeks, in 2017</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end about product section -->
-    <!-- start project gallery section -->
-    <section class="no-padding">
-        <div class="container-fluid">
-            <div class="row padding-15px-lr ">
-                <div class="col-md-3 col-sm-6 text-center sm-margin-30px-bottom wow fadeInRight xs-display-none ">
-                    <img src="images/biblio1.png" alt="" />
-                </div>
-                <div class="col-md-3 col-sm-6 text-center sm-margin-30px-bottom wow fadeInRight" data-wow-delay="0.2s">
-                    <img src="images/biblio2.png" alt="" />
-                </div>
-                <div class="col-md-3 col-sm-6 text-center xs-margin-30px-bottom wow fadeInRight sm-display-none" data-wow-delay="0.4s">
-                    <img src="images/biblio3.png" alt="" />
-                </div>
-                <div class="col-md-3 col-sm-6 text-center wow fadeInRight sm-display-none" data-wow-delay="0.6s">
-                    <img src="images/biblio4.png" alt="" />
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end project gallery section -->
+
     <!-- start about section -->
-    <section class="big-section">
+    <section class="wow fadeIn border-top border-width-1 border-color-medium-gray big-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 sm-margin-5px-bottom wow fadeInLeft">
                     <div class="separator-line-horrizontal-full bg-deep-pink margin-20px-bottom sm-display-none"></div>
-                    <span class="text-uppercase alt-font text-medium-gray letter-spacing-1 font-weight-600 text-small">DISCOVERY
-                        </br> & RESEARCH</span>
+                    <span class="text-uppercase alt-font text-medium-gray letter-spacing-1 font-weight-600 text-small">TU VEUX
+                        </br> EN PARLER ?</span>
                 </div>
                 <div class="col-lg-8 col-md-7 col-md-offset-2 last-paragraph-no-margin">
                     <h5 class="alt-font page-title-extra-small text-extra-dark-gray font-weight-400 margin-30px-bottom clear-both line-height-40 no-margin-top sm-line-height-30 "><span class="font-weight-800"> The problem:</span> </br>Academic findings are confined to an increasingly narrow audience.</h5>
                     <p class="text-medium line-height-30">
-                        Academic research is about gathering new information and furthering human knowledge. It has the
-                        potential to spur critical thinking, inject nuance and depth to the the public discussion,
-                        inform decision-making, empower citizens, support innovation, and more. 
-                        However, knowledge produced in universities largely goes unheeded and rarely influences
-                        thinking beyond academia. In fact, <a href="https://www.straitstimes.com/opinion/prof-no-one-is-reading-you" target="_blank">an
-                            average article in a peer-reviewed journal is read by no more than 10 people</a>. Depending
-                        on the field, <a href="https://arxiv.org/ftp/arxiv/papers/0809/0809.5250.pdf" target="_blank">as
-                            much as 82% of academic papers never get cited once</a>. </p>
-                    <p class="text-medium line-height-30">
-                        I was sadly not surprised by those statistics, as this was the experience I also had had during
-                        my degree in Politics and Sociology. To further verify my assumptions, I surveyed 63 people 
-                        between ages 20-30, either with an undergraduate degree or currently studying (meaning people who had been exposed to the academic world at some point). I found out that <b>79% of them
-                            never read academic papers</b>, or only when they're looking for something very specific.
-                        This situation also causes frustration for researchers, who feel their hard-won
-                        work is going to waste: “<i>At the beginning, I was very excited about my thesis, but after
-                            working on the same thing for months, alone and with little feedback, it turned into a
-                            nightmare. I just wanted to finish it, move on and find a 'regular' job</i> ”, wrote a
-                       PhD student. </p>
-                    <p class="text-medium line-height-30">
-                        While researching, I learned that there was a momentum for free and open-access
-                        knowledge in universities and governments around the wolrd. I came accross networks and
-                        services that make academic litterature accessible online for free, such as <a href="https://www.researchgate.net/"
-                            target="_blank">ResearchGate</a>, and <a href="https://www.academia.edu/" target="_blank">Academia.edu</a>. However,
-                        those are targeted at researchers, not the wider public. Beside, research accessibility isn't only the ability to obtain the paper, it's also the capacity to grasp its content. This means that removing
-                        paywalls, while important, is not enough to bridge the gap between scholar communities and
-                        the non-academic audience.</p>
-                    <p class="text-medium line-height-30">
-                        I started this project envisioning a space where academic findings would be available for anyone to engage with, no matter their background, so that it could have an impact in the world. After a lot of research and interviews, I had identified four opportunities to achieve this goal, by improving the:  </p></br></br>
+                        TVEP 
+
+
+Mental health was an important topic to me since teenager years, having seen people close to me in the grip of depression, myself going through the difficult times of your brain lying to you. 
+
+In 2017-2018, I moved to Toronto, Canada. It’s hard to know how experience change you while they happen. Something became clear as I returned to Belgium (first those scooters had appeared together and that was weird). Maybe lucky or maybe the culture there, but I had stated opening up about my mental health, at work, my manager asking me to manage my stress discovering « mental health days » (waw), someone talking about their anxiety in a bar, nationwide campaigns lets talk,… It has left an impression on me i only realized when i came home, adapted that. 
+
+People thanked me. Just mentioned. Always afterwards, always when alone. Opened up, shared with me. 
+
+I started wondering in the back of my head about how we can get these discussions out of 
+
+Cue to a year later, and everything is locking down and we’re working from home. Connecting becomes a buzzword and burn out just the weekly news. 
+
+
+I asked question. On my socials first, then expanded. People were candid and open in those anonymous and same direction: we want to talk about it. But how? 
+
+I didn’t have a degree qualifying. I’m not a therapist. But what I’m fascinated with is difficult conversations. The way we muddling though them, the moments of vulnerability that unlock them, the way someone says something and you know you’re not alone. Question 
+
+When things eased of, I tested. I took cards i wrote questions on them. I must have iterate through hundreds of questions. 
+
+It was then that I got lucky to be accepted by StartLAB, the key incubator in Brussels. Challenged me at every step, networks of entrepreneurs with amazing projects, coach and mentors. 
+
+I experienced and refined the rules. Organized games, set up an online presence (instagram and tiktok), it was all new. 
+
+Didn’t have to scale it and for a business model that makes sens, id have to have it made in china, which i was against. 
+
+The project is sleeping i realized i couldn’t carry on my own, I learned about myself that as much as i fantasize about the entrepreneur life, I like a team, I like bouncing ideas off people, and I’m no good to handle orders and. I’m proud for the dozens of discussions it sparked, I’m proud that knew when to stop. I’m glad that here and there, when a friend is down, i get those cards and we don’t have to think our way and be supported by them to get us where it’s scary to go darker less travelled place indicated ronces 
+
+1 - Apporter de la nuance à un discours sur la santé mentale souvent trop médicalisé, stigmatisant, négatif - ou inexistant.
+
+2 - Retisser le lien social et recréer un sentiment d'appartenance dans des situations où la honte, la solitude, l'isolement et l'impression d'être incompris dominent.
+
+3 - Déclencher des conversations essentielles et difficiles.
+
+4 - Offrir un outil de plus dans la boite à outil que nous développons au fur et à mesure de nos vies pour faire face aux périodes plus sombres.
+
+Normal il oser 
+Trouver les mots
+Créer des espaces
+ 
+
+**La vision** 
+
+Si je vois plus loin, j'aimerais qu'un jour  parler de nos santés mentales devienne quelque chose qui nous connecte,  que ça devienne aussi normal de dire ”ça ne va pas bien dans ma tete pour le moment” ”mon cerveau fait des siennes” ”je prend des médicaments pour mon anxiété” ”je reste chez moi, je me sens depressive”. 
+
+"Normalize awkward conversations"
+
+Where we stumble 
+
+
+La santé mentale est au cœur des discussions de la génération 18-25. Celle qu’on appelle déjà la “génération covid”. Nous sommes passés d’un sujet complètement tabou, nié, minimisé, à une discussion générationnelle. Si le climat ambiant montre tous les enjeux liés au sujet, cette discussion a commencé bien avant la crise sanitaire. Il suffit de voir le nombre de réponses reçues lors de notre appel à témoignage : les jeunes s’intéressent à leur santé mentale et n’ont pas peur d’en parler. Nous pouvons aussi jeter un œil aux réseaux sociaux : les comptes             Instagram d’accompagnement fleurissent. Des jeunes vlogguent leurs moments sombres sur YouTube. D’autres ont fait du sujet un trend sur TikTok. Bref, c’est un sujet primordial.
+
+The climbing rate of depression are without question the consequence of modernity. The pace of life, the technological chaos of it, the alienation of people from one another, the breakdown of traditional family structure, the loneliness that is endemic the failure of systems of belief (religions moral political social anything that seemed to give meaning and direction to life) have been catastrophic. Fortunately we have developed systems for coping with the problem. We have medications that dress the organic disturbances and therapies that address the emotional upheavals of chronic disease. Depression is an increasing cost of our society but its not ruinous we have the psychological equivalents of sunscreen and baseball hats and shade. But do we have the equivalent of an environmental movement? A system to contain the damages we are doing to the social ozone layer?
+
+
+Valeurs 
+
+DROLE faire sourire thoughtful packaging unexepcted questions
+
+impact rentre dedans ne mache pas ses mots
+
+medical -> responsabilite partagee
+
+scary -> approchable comprehensible
+
+honteux -> normal et celebre
+
+lointain -> proche au quotidien
+
+jungle -> clair
+
+tabou -> bienveillant
+
+hesitant timide -> clame fierement </p></br></br>
                     <div class="row equalize xs-equalize-auto">
                         <!-- start features box item -->
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 margin-six-bottom md-margin-six-bottom xs-margin-ten-bottom  last-paragraph-no-margin">
@@ -252,12 +244,12 @@
     <!-- end gallery section -->
 
     <!-- start about section -->
-    <section class="wow fadeIn big-section">
+    <section class="wow fadeIn border-top border-width-1 border-color-medium-gray big-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 sm-margin-5px-bottom wow fadeInLeft">
                     <div class="separator-line-horrizontal-full bg-deep-pink margin-20px-bottom sm-display-none"></div>
-                    <span class="text-uppercase alt-font text-medium-gray letter-spacing-1 font-weight-600 text-small">Exploration, Testing & Iterations
+                    <span class="text-uppercase alt-font text-medium-gray letter-spacing-1 font-weight-600 text-small"> RIAKTR
                 </span>
                 </div>
                 <div class="col-lg-8 col-md-7 col-md-offset-2 last-paragraph-no-margin">
@@ -265,8 +257,7 @@
                     <p class="text-medium line-height-30">
                           After creating personas, an experience map and user stories, I had more clarity on the future features and flow of the app. It would offer a <b>curated selection </b>of papers, based on the user's interest and reading history. The content itself would be written in <b>everyday English</b>,  with definitions for the more complex concepts, and distilled to the  <b>main findings</b>. There would be  <b>several opportunities to engage</b> with the material, such as: creating collections, sharing a paper, highlighting sentences, personalising the format of the text, asking questions to the researcher, discussing findings with the community, etc. </p>
                           <p class="text-medium line-height-30">
-                         I proceeded with sketches, then wireframes, and refined the solution with three rounds of usability testing. In total, 14 people tried the prototype (at different levels of fidelity). I would start with some background questions about their experience with academic papers, then ask them to perform a task (enter their interests - select a paper - read it, while I observe their reaction, and lastly inquire about their general opinion. The goal was to validate that the design was intuitive, that the content was enjoyable to read and easy to grasp and that people would indeed be more inclined to read academic papers if they were presented in such format. The feedback I got was incredibly helpful. For example:</p>
-                          <p class="text-medium line-height-30">
+                           <p class="text-medium line-height-30">
                                 <ul class="list-style-3 text-medium line-height-30 padding-20px-left">
                                     <li> The Home Page ("Discover") is an important one, as it should make users feel curious but not overwhelmed. I started with a very simple list, which people found too cluttered and not inspiring. I then tried a carousel, to focus on one paper at the time, with little success: it was confusing and cumbersome. I ended up with something in between: the user can scroll down to see different sections, and swipe for the papers within each categories. The feedback was positive: this layout was intuitive and well-organised. Thanks to the testings, I also learned what information actually needed to be on this page: the reading time and the option to pick up where you left off were appreciated, while the year of publication and tags were just cluttering the screen. Finally, I realised that the "Read" button wasn't necessary, because with well-designed interface the users would intuitively click on the card.</li>
                                         
@@ -342,12 +333,12 @@
         <!-- end gallery section -->
 
 <!-- start about section -->
-<section class="wow fadeIn big-section">
+<section class="wow fadeIn border-top border-width-1 border-color-medium-gray big-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 sm-margin-5px-bottom wow fadeInLeft">
                     <div class="separator-line-horrizontal-full bg-deep-pink margin-20px-bottom sm-display-none"></div>
-                    <span class="text-uppercase alt-font text-medium-gray letter-spacing-1 font-weight-600 text-small">Visual identity & marketing website </span>
+                    <span class="text-uppercase alt-font text-medium-gray letter-spacing-1 font-weight-600 text-small">TRAININGS </br> & WORKSHOPS </span>
                 </div>
                 <div class="col-lg-8 col-md-7 col-md-offset-2 last-paragraph-no-margin">
                         <h5 class="alt-font page-title-extra-small text-extra-dark-gray font-weight-400 margin-30px-bottom clear-both line-height-40 no-margin-top sm-line-height-30"><span class="font-weight-800"> biblio:</span> </br>The final product.</h5>
@@ -395,28 +386,7 @@
         <!-- end project gallery section -->
 
 
-    <!-- start about section -->
-    <section class="wow fadeIn big-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 sm-margin-5px-bottom wow fadeInLeft">
-                    <div class="separator-line-horrizontal-full bg-deep-pink margin-20px-bottom sm-display-none"></div>
-                    <span class="text-uppercase alt-font text-medium-gray letter-spacing-1 font-weight-600 text-small">LEARNINGS & NEXT STEPS</span>
-                </div>
-                <div class="col-lg-8 col-md-7 col-md-offset-2 last-paragraph-no-margin">
-                        <h5 class="alt-font page-title-extra-small text-extra-dark-gray font-weight-400 margin-30px-bottom clear-both line-height-40 no-margin-top sm-line-height-30"><span class="font-weight-800"> What's next:</span> </br>Involving the researchers.</h5>
-                        <p class="text-medium line-height-30">
-
-                                I felt proud at the end of this project: I had managed to take a complex issue through a 2 months design process and was getting a lot of positive feedback for the final product. I had also learned a lot: how to listen to users instead of blindly following my first ideas, how to focus on perfecting the core flow rather than wanting to "design it all", how to trust the process and not get so attached to my initial designs, how to keep going when it gets overwhelming, etc.</p>
-
-                        <p class="text-medium line-height-30"> However, there's still so much to be improved. With the flow, design and copy of both the app and the website of course, but more importantly, I need to start including researchers. Indeed, academia still operate under an ancient system that values only scholarly output and has yet to find an incentive for researchers to engage the public. Even when they want to, they might not know how or simply not have the time. By working with academics, I could better grasp the complexities of their process and uncover what would encourage them to share their findings with the wider audience in an accessible format.
-
-                       
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+ 
   
 
              <!-- start social links section -->
@@ -424,7 +394,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12 text-center social-style-4 border round">
-                                <span class="text-medium font-weight-600  display-block alt-font text-medium-gray margin-20px-bottom"><p class="text-extra-large font-weight-400 margin-20px-bottom "> Thank you for reading. 🌻 </p> <p class="text-extra-large font-weight-600 ">Interested? <a class="text-black" href="contact.html">Let's work together.</a></p>
+                                <span class="text-medium font-weight-600  display-block alt-font text-medium-gray margin-20px-bottom"><p class="text-extra-large font-weight-400 margin-20px-bottom "> Thank you for reading. 🌻 </p> 
                             </div>
                         </div>
                     </div>
@@ -438,11 +408,11 @@
                 <div class="display-table width-100 padding-30px-lr sm-padding-15px-lr">
                     <div class="width-45 text-left display-table-cell vertical-align-middle">
                         <div class="blog-nav-link blog-nav-link-prev text-extra-dark-gray">
-                            <span class="text-medium-gray text-extra-small display-block text-uppercase xs-display-none">Previous
-                                Project</span>
+                           <span class="text-medium-gray text-extra-small display-block text-uppercase xs-display-none"><a href="belfius.html">Previous
+                                Project</a></span>
                             <a class="no-hover-text">
                                 <i class="ti-arrow-left blog-nav-icon"></i>
-                               Coming soon
+                              Car Insurance
                             </a>
                         </div>
                     </div>
@@ -450,13 +420,9 @@
                         <a href="index.html" class="blog-nav-link blog-nav-home"><i class="ti-home"></i></a>
                     </div>
                     <div class="width-45 text-right display-table-cell vertical-align-middle">
-                        <div class="blog-nav-link blog-nav-link-next text-extra-dark-gray">
-                            <span class="text-medium-gray text-extra-small display-block text-uppercase xs-display-none">Next
+                        <div class="no-hover">
+                              <span class="text-light-gray text-extra-small display-block text-uppercase xs-display-none">Next
                                 Project</span>
-                            <a class="no-hover-text" >
-                                <i class="ti-arrow-right blog-nav-icon"></i>
-                                Coming soon
-                            </a>
                         </div>
                     </div>
                 </div>
