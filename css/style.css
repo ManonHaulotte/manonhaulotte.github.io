@@ -127,7 +127,7 @@ p ul li {
 }
 
 .no-hover {
-   cursor: grab !important;
+   pointer-events: none !important;
 }
 
 .no-hover-text {
