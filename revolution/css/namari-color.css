@@ -1,0 +1,531 @@
+
+/* Namari Landing Page Dynamic Style Index
+
+1. Website Default Styling
+2. Navigation
+3. Primary and Secondary Colors
+4. Banner
+5. Typography
+6. Buttons
+7. Footer
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 1. Website Default Styling */
+/*------------------------------------------------------------------------------------------*/
+
+
+body {
+    background:#fff;
+}
+
+#app {
+  max-width: 250px !important;
+  padding: 20px !important;
+}
+
+#up {
+  margin-top: -350px !important;
+}
+
+#text1 {
+  max-width: 750px!important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  width: 750px !important;
+
+}
+
+#text2 {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  max-width: 750px!important;
+  width: 750px!important;
+
+
+}
+
+#how {
+padding-top: 150px;
+}
+
+#protop {
+margin: 0 !important;
+width: 900px;
+
+}
+
+#protoh2 {
+
+padding-top: 10px;
+padding-bottom: 0px;
+
+}
+
+#more {
+  padding: 0;
+}
+/* Default Link Color */
+
+a, .la-ball-triangle-path {
+    color:#6DD5C7;
+}
+
+a:hover, #header.nav-solid nav a:hover {
+    color:#6DD5C7;
+}
+
+/* Default Icon Color */
+
+.icon i {
+    color:#6DD5C7;
+}
+
+/* Border Color */
+
+#banner .section-heading:before, .testimonial.classic footer:before {
+    background: #6DD5C7;
+}
+
+.pricing-block-content:hover {
+    border-color:#6DD5C7;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 2. Navigation */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Transparent Navigation Color on a Banner */
+
+#header nav a, #header i {
+    color:#111;
+}
+
+
+/* Navigation Colors when the Navigation is sticky and solid */
+
+#header.nav-solid, #header.nav-solid a, #header.nav-solid i, #nav-mobile ul li a {
+    color:#333;
+}
+
+
+/* Navigation Active State */
+
+#header.nav-solid .active {
+    color: #6DD5C7;
+    border-color: #6DD5C7;
+}
+
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 3. Primary and Secondary Colors */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Primary Background and Text Colors */
+
+.primary-color, .featured .pricing {
+    background-color:#6DD5C7;
+}
+
+.primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
+    color:#fff;
+}
+
+.section-heading h2:after {
+    background:#6DD5C7;
+    content:"";
+    display:block;
+    width:30px;
+    height:5px;
+      margin-top: 30px
+}
+
+#title :after {
+
+  margin-top: 50px !important;
+
+}
+
+
+.text-center .section-heading h2:after {
+    margin:30px auto 25px auto;
+}
+
+/* Primary Icon Colors */
+
+.primary-color .icon i, .primary-color i {
+    color:#fff;
+}
+
+
+/* Secondary Background and Text Colors */
+
+.secondary-color {
+    background-color:#fff;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 4. Banner */
+/*------------------------------------------------------------------------------------------*/
+
+#prototype {
+position: relative;
+top: -150px;
+alig
+
+}
+
+/* Banner Background and Text Colors */
+
+#banner {
+    background: url("../images/banner-images/heroimg.png") no-repeat;
+    background-position: center top;
+    background-size:cover;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 5. Typography */
+/*------------------------------------------------------------------------------------------*/
+
+
+body {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica;
+    font-size:15px;
+    font-weight:normal;
+    color:#111;
+}
+
+/* Logo, if you are using Fonts as Logo and not image
+
+#logo h1 {
+    font-family:;
+    font-size:;
+    font-weight:;
+    color:;
+}
+
+#logo h2 {
+    font-family:;
+    font-size:;
+    font-weight:;
+    color:;
+}
+
+*/
+
+
+/* Banner Typography */
+
+#banner h1 {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica;
+    width: 700px;
+    font-size:58px;
+    line-height:64px;
+    font-weight:600;
+    color:#111;
+}
+
+#banner h2 {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica;
+    font-size:18px;
+    line-height: 24px;
+    width: 450px;
+    font-weight:300;
+    color:#333;
+}
+
+
+/* Section Title and Subtitle */
+
+.section-title {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica;
+    font-size: 34px;
+    font-weight:700;
+    color:#111;
+}
+
+.section-subtitle {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica;
+    font-size: 16px;
+    font-weight:300;
+    color:#9c9c9c;
+}
+
+/* Testimonial */
+
+.testimonial q {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica;
+    font-size: 17px;
+    font-weight:300;
+}
+
+.testimonial.classic q, .testimonial.classic footer {
+    color:#111;
+}
+
+
+/* Standard Headings h1-h6 */
+
+h1 {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica;
+    font-size: 40px;
+    font-weight:300;
+    color:#111;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica;
+    font-size: 34px;
+    font-weight:300;
+    color:#111;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica;
+    font-size: 30px;
+    font-weight:700;
+    color:#111;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica;
+    font-size: 18px;
+    font-weight:400;
+    color:#111;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica;
+    font-size: 16px;
+    font-weight:400;
+    color:#111;
+}
+
+h6 {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica;
+    font-size: 14px;
+    font-weight:400;
+    color:#111;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 6. Buttons */
+/*------------------------------------------------------------------------------------------*/
+
+/* ----------Default Buttons---------- */
+
+
+/* Button Text */
+
+.button, input[type="submit"]  {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica;
+    font-size:14px;
+    font-weight:bold;
+    color:#111;
+}
+
+
+/* Button Color */
+
+.button, input[type="submit"] {
+    border-color:#111;
+}
+
+
+/* Button Hover Color */
+
+.button:hover,  input[type="submit"]:hover {
+    border-color:#6DD5C7;
+    color:#6DD5C7;
+}
+
+
+/* ----------Banner Buttons---------- */
+
+
+/* Button Text */
+
+#banner .button {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica;
+    font-size:16px;
+    color:#111;
+}
+
+
+/* Button Color */
+
+#banner .button {
+    border-color:#111;
+}
+
+
+/* Button Hover Color */
+
+#banner .button:hover {
+    color:#6DD5C7;
+    border-color:#6DD5C7;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 7. Footer */
+/*------------------------------------------------------------------------------------------*/
+
+#landing-footer, #landing-footer p, #landing-footer a {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica;
+    font-size:12px;
+    font-weight:normal;
+    color:#999;
+}
+
+/* Footer Icon Color */
+
+#landing-footer i {
+    color:#999;
+}
+
+
+
+@media (max-width: 767px) {
+
+
+
+  [class*='col-'] {
+      float: left;
+      padding: 10px;
+  }
+
+
+  #logo img {
+      max-height: 20px;
+      vertical-align: middle;
+      margin-right: 15px;
+  }
+
+
+
+  #banner {
+
+   background: url("../images/banner-images/heroimg.png") no-repeat;
+   background-position: bottom right !important ;
+   background-size: 145%;
+   background-attachment:fixed;
+
+  }
+
+
+
+#banner h1 {
+  width: 300px;
+  font-size:34px;
+  line-height:40px;
+  font-weight:600;
+  padding-top: 10% !important;
+  padding-bottom: 20px !important;
+}
+
+#banner h2 {
+    font-size:14px;
+    line-height: 20px;
+    width: 280px;
+}
+
+
+.button {
+    font-size: 16px;
+    width: 30%;
+    margin: 0;
+    padding: 110px 0px 0px 0px;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+    display: inline-block;
+}
+
+#title {
+  margin-top: 20px !important;
+}
+#title :after {
+margin-top: 40px !important;
+}
+#prototype {
+position: relative;
+top: -190px;
+right: 70px;
+transform: scale(0.2);
+
+}
+
+#protop {
+margin: 0 !important;
+width: 295px !important;
+
+}
+
+#protoh2 {
+width: 290px !important;
+padding-top: 10px;
+padding-bottom: 0px;
+
+}
+
+#more{
+
+  width: 300px;
+  padding: 0 0 40px 0 !important;
+
+
+}
+blockquote {
+    padding-bottom: 50px !important;
+
+}
+
+
+.testimonial.classic q {
+ font-size: 15px !important;
+ line-height: 18px;
+}
+
+.section-heading {
+    padding: 0;
+}
+
+.testimonial footer {
+font-size: 15px ! important;
+}
+
+
+.testimonial.bigtest {
+    text-align: center !important;
+    max-height: 200px;
+    padding-bottom: 10px !important;
+
+}
+.testimonial.bigtest q {
+    font-size: 18px;
+  line-height: 22px;
+
+
+}
+
+#up {
+  margin-top: -350px !important;
+}
+
+p {
+    max-width: 510px;
+}
+
+.icon-block h4 {
+    max-width: 200px;
+}
