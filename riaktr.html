@@ -134,6 +134,49 @@
                        
                         <p class="text-medium line-height-30">
                     
+
+                            Problem space:
+
+                            The company experienced rapid growth and relied on developers to handle design tasks, resulting in disorganized and complex user flows and a cluttered interface that lacked visual consistency and personality. The platform was in the middle of changing from “Control Tower” to “S&D” and there was a need to improve the overall user experience.
+                            
+                            Discovery and Research:
+                            
+                            The team conducted interviews with managers and field agents to understand their pain points and gather feedback on the current task creation process. They also looked at existing research and data to identify areas that needed improvement.
+                            research method: remote interviews
+                            
+                            Exploration and Testing:
+                            
+                            The team explored various design solutions to address the identified pain points, such as removing the context switch from S&D to CT, equipping managers with necessary filters to make informed choices about which POIs to include/exclude, and creating a POI list with the number of selected POIs. They also tested micro and macro interactions to ensure the new task creation flow was intuitive and easy to use.
+                            - the selection criterias
+                            - the list 
+                            Design decisions:
+                            
+                            Based on the research and testing, the team decided to implement a new task creation flow that included features such as filters, a POI explorer, and a task widget to track the status of created tasks. They also decided to focus on creating a design system to improve the consistency and efficiency of the design process.
+                            
+                            Next steps:
+                            
+                            The next step is to create a POI explorer and design components library, with a focus on creating a flexible and adapted components library, together with design and development, with the vision of slowly moving towards a design system that would ultimately enable a much faster design-to-development process. Additionally, efforts will be made to ensure better co-creation, more transparency, frequent design critique sessions and earlier input from business and technical teams.
+
+                            Does the new task creation flow make it easy for managers to ensure that their team is focusing on the key Points of Sales, both when acting on specific issues (firefighting) and when driving growth?
+
+
+
+                            Firefighting/list view: we’re going in the right direction.
+• Users find the process easier, less time-consuming and were glad to see their main pain points answered, like including the POS attributes they need to make a selection (Segment, Last visited,...)
+• Some countries have specific needs -> selection criterias will need to be configured during implementation Maintaining a sense of autonomy seems important.
+• The managers we talked to have a lot of external knowledge (about the tasks each agents can handle, the zone they work in,...). They want to have access to all the necessary information to make their own decisions.
+• There’s ongoing internal communication between the agents and the managers (Whatsapp,...). The level of trust do vary from country to country though.
+ 
+
+
+
+
+
+POS List (Serious):
+• Can be made more intuitive by automatically batch-selecting POIs based on selection criterias
+• Missing information for some countries: Open tasks, owner name, distributor name, revenues, last survey conducted....
+• UI tweaks: Show number of POS higher on the page, show the disabled “create task” icon before selection,...
+• The “save filters set” was not a requested feature.
                             Shorten & simplify the process of task creation and assignment                         </br>       </br> 
                         By:  
                         -  Removing context switch from S&D to CT -  Equipping managers with the necessary filters to make informed 	choices about which POS to include/exclude (last visit date, segment,…)
@@ -162,7 +205,56 @@ Note that selection criterias will be customized  per country during implement
 
 Are users familiar with more modern design patterns?
 
-then POI explorer
+then we'll create the POI explorer
+
+
+As the company experienced rapid growth, it relied on its developers to handle design tasks and added various features as clients requested them. This led to disorganized and complex user flows and a cluttered interface that lacked visual consistency and personality (they mostly re-used Material design components).
+
+When I joined the Riaktr team it was in the middle of changing platform from “control tower” to “s&d”. 
+
+As a first step towards deprecating Control Tower and to improve the overal user experience, we are moving the end-to-end flow of creating new tasks to S&D.
+This flow will be implemented step by step, ultimately resulting in the creation of a new app, the POI Explorer, where POIs can be filtered and selected for various actions. 
+the business goal was ”A flexible exploration tool to select POI for action. It should be industry-agnostic and be able to serve different use cases for different industries ”
+
+A massive block thorough this process has been the lack of adequate design components. The creation of new UI patterns ”on the fly” lead to both inconsistencies in the product and wasted time within the team.
+Before moving forward too fast, especially with the creation of the new
+POI explorer, I would strongly recommend taking a step back, assessing our various components, as well as our key use cases, and taking the time to create a flexible and adapted components library, together with design and development, with the vision of slowly moving towards a design system, that would ultimately enable a much faster design-to-development process.
+co creation Time was also lost due to the (too) many back-and-forth between design, business and development.
+
+Moving forward, efforts will be made to ensure better co-creation, more transparency, frequent design critique sessions and earlier input from business and technical. 
+
+13 user interviews (and 3 internal interviews) were conducted to 
+confront the initial designs. 
+
+Prototype - Bubbles view
+Prototype - List view
+Report
+
+
+engineering feedback Multiple iterations of the designs to adapt to technical constraints and potential performance issues.
+Noticing the growing lack of consistency, the question of moving towards a design system was discussed with design, business and development
+*Firefighting
+Manager needs to act on specific issues in the Point of Sales (e.g. sales decrease, stock, inactivity)
+Driving Growth
+Managers wants to drive growth in the POS (e.g. converting high-value EVD POS to Money, Deploying branding material, low-value newly acquired money POS…)
+Two Key Scenarios
+align with business goals -  Enable actions based on analytics
+-  Reduce churn rate
+-  Deprecate Control Tower (Ease Maintenance)
+
+exploration: bubbles
+
+
+
+
+My first priority was to address the most pressing needs and issues, which involved conducting user research (remotely) to better understand our users' various goals and contexts. I then worked on a series of concept designs and prototypes, testing them with users and iterating based on their feedback. I worked closely with the team to establish a shared vision for the redesign and prioritize changes based on technical constraints, user research insights, and client expectations.
+
+In addition to this, I conducted a usability review of the entire app, analyzed the information architecture, and made recommendations for improvement. I then began building a design system to create a consistent visual language for the platform, working closely with developers to ensure the feasibility and co-ownership of the components.
+
+Throughout the redesign process, I worked closely with the project manager to improve our design and research processes, and to align design and development efforts effectively. All of this work was done remotely
+
+
+
                         </br></br>
 
                        
