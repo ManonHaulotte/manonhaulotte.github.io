@@ -51,7 +51,14 @@ body {
 	height: auto;
 }
 
-
+ /* Position the left column as fixed */
+ .intro {
+	position: fixed;
+}
+/* Position the right column as absolute */
+.project-list {
+	position: absolute;
+}
     /* Style for project items when not hovered over */
     .project-item {
         background-color: white;
