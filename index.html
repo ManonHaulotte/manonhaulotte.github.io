@@ -114,16 +114,20 @@
     </header>
     <!-- end nav -->
 
-	<!-- start slider section -->
 	<section class="wow fadeIn">
-		<div class="swiper-bottom-scrollbar-full swiper-container">
-			<div class="swiper-wrapper">
 
-				<!-- start slider item -->
-				<div class="swiper-slide width-550px xs-width-100 xs-height-auto no-hover">
-					<div class="position-relative width-120 height-100 display-table padding-ten-left xs-padding-five-all xs-width-100">
-						<div class="display-table-cell vertical-align-middle">
-							<h6 class="alt-font text-small font-weight-700 text-uppercase yellow margin-5px-bottom">Bonjour!</h6>
+		In the HTML code I provided, the list of projects will be added immediately after the div with class "swiper-bottom-scrollbar-full". So it will not be on the right side of the description.
+
+		If you want the list of projects to be on the right side of the description, you can wrap both the description and the list of projects in a container div and use CSS flexbox to align the description to the left and the list of projects to the right.
+		
+		You can also use the grid layout instead of flexbox, to place the projects on the right side.
+		
+		Copy code
+		<section class="wow fadeIn">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h6 class="alt-font text-small font-weight-700 text-uppercase yellow margin-5px-bottom">Bonjour!</h6>
 							<h5 class="alt-font text-extra-dark-gray font-weight-800 line-height-40 margin-20px-bottom sm-line-height-30">I'm
 								Manon Haulotte, </br> a product designer and strategist.</h5>
 							<p class="pull-left dispaly-block width-100 margin-20px-bottom text-large font-weight-300 margin-30px-bottom line-height-30 ">
@@ -133,160 +137,31 @@
 
 							</p><span class="infos"><a href="mailto:%20hi@manonhaulotte.com">manonhaulotte@outlook.com</a> <span class="social"><a href="https://www.linkedin.com/in/manon-haulotte/"
 									 target="_blank"><i class="fab fa-linkedin-in"></i></a></span></span>
+					</div>
+					<div class="col-md-6">
+						<div class="project-list">
+							<div class="project-item">
+								<h2 class="project-title">Project Title</h2>
+								<p class="project-description">Short description</p>
+								<ul class="project-skills">
+									<li>Key Skill 1</li>
+									<li>Key Skill 2</li>
+								</ul>
+							</div>
+							<div class="project-item">
+								<h2 class="project-title">Project Title</h2>
+								<p class="project-description">Short description</p>
+								<ul class="project-skills">
+									<li>Key Skill 1</li>
+									<li>Key Skill 2</li>
+								</ul>
+							</div>
 						</div>
 					</div>
-				</div><!-- end slider item -->
-
-
-<!-- start slider item -->
-<div class="swiper-slide width-auto xs-height-auto last-paragraph-no-margin margin-40px-left xs-no-margin  xs-margin-20px-top">
-	<div class="height-100 display-table">
-		<div class="display-table-cell vertical-align-middle">
-			<div class="display-block position-relative">
-				<img alt="" src="images/BEws2.png">
-			</div>
-			<div class="hover-title-box width-600px sm-width-100 sm-padding-20px-lr ">
-					<h5 class="alt-font text-white font-weight-400 margin-10px-bottom line-height-35 sm-line-height-26"> BelfiusWeb 2.0: Designing a Corporate and Public Banking Dashboard <span class= "font-weight-800"> that works for everyone.</span></h5>
-						<h6 class="bottom-text alt-font text-small text-white text-uppercase  margin-25px-bottom font-weight-400"> UX
-							STRATEGY | INFORMATION ARCHITECTURE | CONCEPT DESIGN | CO-CREATION & WORKSHOP FACILITATION </h6>
-						<div class="width-600px sm-width-100">
-							<p class="text-medium line-height-25 font-weight-300 text-white mobile"> BelfiusWeb, the digital solution for corporate and public banking, was facing issues with its redesign. I led a series of co-creation workshops with key stakeholders to align the team, and conducted a thorough usability audit and user research to identify opportunities for improvement. Through this process, I ended up redesigning the dashboard, facilitating the work of a wide variety of user profiles."
-
-
-
-							</p>
-					<div class="margin-90px-top sm-text-center sm-margin-40px-top">
-						<a class="btn text-alt btn-medium btn-deep-pink" href="belfius.html">VIEW CASE STUDY</a></div>
 				</div>
 			</div>
-		</div>
-	</div>
-
-</div><!-- end slider item -->
-
-				<!-- start slider item -->
-				<div class="swiper-slide width-auto xs-height-auto last-paragraph-no-margin margin-40px-left xs-no-margin  xs-margin-20px-top">
-					<div class="height-100 display-table">
-						<div class="display-table-cell vertical-align-middle">
-							<div class="display-block position-relative">
-								<img alt="biblio iOS app" src="images/Biblio_Home.png">
-							</div>
-							<div class="hover-title-box width-500px sm-width-100 sm-padding-20px-lr ">
-									<h5 class="alt-font text-white font-weight-400 margin-10px-bottom line-height-35 sm-line-height-26"> How might
-											we facilitate <span class= "font-weight-800"> greater public engagement with academic research?</span></h5>
-										<h6 class="bottom-text alt-font text-small text-white text-uppercase  margin-25px-bottom font-weight-400"> UX
-											Research | UI/UX Design | USER TESTING | VISUAL IDENTITY | Front-End</h6>
-										<div class="width-600px sm-width-100">
-											<p class="text-medium line-height-25 font-weight-300 text-white mobile"> Created during the immersive UX Design program at
-												Brainstation Toronto, biblio is an iOS app that aims to increase the reach and impact of academic research by
-												making the findings easy to discover, comprehend and engage with outside of universities. This project gave
-												me the opportunity to explore each step of the design process, from
-												identifying and understanding the barriers to engagement, to finding and testing possible
-												solutions to overcome them.</p>
-									<div class="margin-90px-top sm-text-center sm-margin-40px-top">
-										<a class="btn text-alt btn-medium btn-deep-pink" href="biblio.html">VIEW CASE STUDY</a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div><!-- end slider item -->
-				<!-- start slider item -->
-				<div class="swiper-slide width-auto xs-height-auto last-paragraph-no-margin xs-margin-20px-top">
-					<div class="height-100 display-table">
-						<div class="display-table-cell vertical-align-middle">
-							<div class="display-block position-relative">
-								<img alt="" src="images/Task Prioritization Workflow.png">
-							</div>
-							<div class="hover-title-box width-500px sm-width-100 sm-padding-20px-lr ">
-								<h5 class="alt-font text-white font-weight-400 margin-10px-bottom line-height-35 sm-line-height-26"> How can we encourage young people to <span class= "font-weight-800">  buy books from independant bookstores? </span></h5>
-								<h6 class="bottom-text alt-font text-small text-white text-uppercase  margin-25px-bottom font-weight-400"> UX
-									Research | UX/UI DESIGN  </h6>
-								<div class="width-600px sm-width-100">
-									<p class="text-medium line-height-25 font-weight-300 text-white mobile">
-										I've always felt at home in bookstores. Naturally, when I moved to Canada, I looked online for small indie bookshops to visit. I was pleasantly surprised to discover that many were offering online shopping and embracing social medias to further bring value to and connect with ther consumers. This inspired me. Once I was back in Brussels, I decided to research and explore ways that local independant book sellers could improve their online presence to appeal to younger potential consumers.
-								
-
- 								</p>
-									<div class="margin-90px-top sm-text-center sm-margin-40px-top">
-										<a class="btn text-alt btn-medium btn-deep-pink" href="riaktr.html">VIEW CASE STUDY</a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div><!-- end slider item -->
-
-				<!-- start slider item -->
-				<div class="swiper-slide width-auto xs-height-auto last-paragraph-no-margin xs-margin-20px-top">
-					<div class="height-100 display-table">
-						<div class="display-table-cell vertical-align-middle">
-							<div class="display-block position-relative">
-								<img alt="biblio iOS app" src="images/Quote_Home.png">
-							</div>
-							<div class="hover-title-box width-500px sm-width-100 sm-padding-20px-lr ">
-									<h5 class="alt-font text-white font-weight-400 margin-10px-bottom line-height-35 sm-line-height-26"> How to optimize the experience of<span class= "font-weight-800"> getting a car insurance quote online?</span></h5>
-								<h6 class="bottom-text alt-font text-small text-white text-uppercase  margin-25px-bottom font-weight-400"> UX
-									Research | UX/UI DESIGN  | USER TESTING </h6>
-								<div class="width-600px sm-width-100">
-									<p class="text-medium line-height-25   font-weight-300  text-white mobile"> One of Capco's client, a major Canadian insurance company, wanted to fully rethink their online quote experience. It had to be fast, intuitive and appealing to younger customers, to build trust and to be consistent with the brand and existing patterns. Together with a cross-functional agile team, we researched, designed, tested and developed the flow for a new client getting a car insurance quote in Quebec, from entering their information to selecting a plan.
-								
-								</p>
-									<div class="margin-90px-top sm-text-center sm-margin-40px-top">
-										<a class="btn text-alt btn-medium btn-deep-pink" href="coop.html">VIEW CASE STUDY</a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div><!-- end slider item -->
-				<!-- start slider item -->
-				<div class="swiper-slide width-auto xs-height-auto last-paragraph-no-margin xs-margin-20px-top">
-					<div class="height-100 display-table">
-						<div class="display-table-cell vertical-align-middle">
-							<div class="display-block position-relative">
-								<img alt="biblio iOS app" src="images/Insurance_Home.png">
-							</div>
-							<div class="hover-title-box width-500px sm-width-100 sm-padding-20px-lr ">
-									<h5 class="alt-font text-white font-weight-400 margin-10px-bottom line-height-35 sm-line-height-26">Improving the look and feel </br> of <span class= "font-weight-800"> an insurance online customer portal</span></h5>
-										<h6 class="bottom-text alt-font text-small text-white text-uppercase  margin-25px-bottom font-weight-400"> UX RESEARCH | UX/UI DESIGN | USER TESTING | DOCUMENTATION | QA TESTING</h6>
-										<div class="width-600px sm-width-100">
-											<p class="text-medium line-height-25 font-weight-300 text-white mobile"> While I was working with Capco for a major Canadian insurance company, we were asked to redesign the home page of their online customer portal. The new design had to better support the business goals, improve the usability and fix any accessibility issues, while staying consistent with the brand and existing patterns. The result, built collaboratively with a cross-functional agile team, was very successful with the business and the customers.</p>
-									<div class="margin-90px-top sm-text-center sm-margin-40px-top">
-										<a class="btn text-alt btn-medium btn-deep-pink" href="tvep.html">VIEW CASE STUDY</a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div><!-- end slider item -->
-
-							<!-- start slider item -->
-							<div class="swiper-slide width-auto xs-height-auto last-paragraph-no-margin xs-margin-20px-top">
-								<div class="height-100 display-table">
-									<div class="display-table-cell vertical-align-middle">
-										<div class="display-block position-relative">
-											<img alt="biblio iOS app" src="images/Insurance_Home.png">
-										</div>
-										<div class="hover-title-box width-500px sm-width-100 sm-padding-20px-lr ">
-												<h5 class="alt-font text-white font-weight-400 margin-10px-bottom line-height-35 sm-line-height-26">Improving the look and feel </br> of <span class= "font-weight-800"> an insurance online customer portal</span></h5>
-													<h6 class="bottom-text alt-font text-small text-white text-uppercase  margin-25px-bottom font-weight-400"> UX RESEARCH | UX/UI DESIGN | USER TESTING | DOCUMENTATION | QA TESTING</h6>
-													<div class="width-600px sm-width-100">
-														<p class="text-medium line-height-25 font-weight-300 text-white mobile"> While I was working with Capco for a major Canadian insurance company, we were asked to redesign the home page of their online customer portal. The new design had to better support the business goals, improve the usability and fix any accessibility issues, while staying consistent with the brand and existing patterns. The result, built collaboratively with a cross-functional agile team, was very successßful with the business and the customers.</p>
-												<div class="margin-90px-top sm-text-center sm-margin-40px-top">
-													<a class="btn text-alt btn-medium btn-deep-pink" href="trainings.html">VIEW TRAININGS</a></div>
-											</div>
-										</div>
-									</div>
-								</div>
-			
-							</div><!-- end slider item -->
-				<div class="swiper-slide width-150px xs-width-100 xs-height-auto"></div>
-			</div><!-- start slider swiper pagination -->
-			<div class="swiper-scrollbar xs-display-none"></div>
-			<div class="swiper-pagination-vertical position-fixed bullet-deep-pink z-index-5"></div><!-- end slider swiper pagination -->
-		</div>
-	</section><!-- end slider section -->
+		</section>
+							<
 	<!-- start scroll to top -->
 	<a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a> <!-- end scroll to top  -->
 	<!-- javascript libraries -->
