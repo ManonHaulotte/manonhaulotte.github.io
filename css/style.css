@@ -51,17 +51,6 @@ body {
 	height: auto;
 }
 
- 
-    /* Style for project items when not hovered over */
-    .project-item {
-        background-color: white;
-    }
-    /* Style for project items when hovered over */
-    .project-item:hover {
-        background-color: #f6f6f6;
-    }
-
-
 
 .yellow {
 	color: #ffcc00;
