@@ -58,7 +58,7 @@ body {
     }
     /* Style for project items when hovered over */
     .project-item:hover {
-        background-color: grey;
+        background-color: #f6f6f6;
     }
 
 
